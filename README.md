@@ -1,2 +1,2 @@
-# utility-java
-A collection of different utility classes written in Java.
+# utility-general
+A collection of different utility classes and functions.
