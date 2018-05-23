@@ -1,3 +1,8 @@
+/**
+ * Created by Thomas Bruvold
+ * https://github.com/Artorp
+ */
+
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import javafx.application.Platform;
@@ -8,11 +13,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
 
-/**
- *
- * Created by Thomas Bruvold
- * https://github.com/Artorp
- *
+/*
  * Utility methods for showing a simple dialog
  * <p>
  * Can be called from any thread, will be shown on the JavaFX application thread
