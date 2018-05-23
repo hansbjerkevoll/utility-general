@@ -1,5 +1,5 @@
 /**
- * Created by Thomas Bruvold
+ * @author Thomas Bruvold
  * https://github.com/Artorp
  */
 
@@ -12,6 +12,12 @@ import java.nio.file.NoSuchFileException;
 
 public class QueryImporter {
 	
+	/**
+	 * Get the query in the given file
+	 * 
+	 * @param string filename of the desiered file
+	 * @return content of file
+	 */
 	public static String getQuery(String resourceName) {
 		String fileContents = "";
 		try (InputStream is = QueryImporter.class.getResourceAsStream(resourceName)) {

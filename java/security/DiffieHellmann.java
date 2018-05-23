@@ -1,5 +1,5 @@
 /**
- * Created by Hans Bjerkevoll
+ * @author Hans Bjerkevoll
  * https://github.com/hansbjerkevoll
  */
 
@@ -52,4 +52,5 @@ public class DiffieHellman {
 		PublicKey publickey = keyfac.generatePublic(x509KeySpec); 
 		return publickey;		
 	}
+	
 }

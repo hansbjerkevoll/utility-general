@@ -1,5 +1,5 @@
 /**
- * Created by Hans Bjerkevoll
+ * @author Hans Bjerkevoll
  * https://github.com/hansbjerkevoll
  */
 
@@ -107,4 +107,5 @@ public class SHA_512 {
 		sr.nextBytes(salt);
 		return salt;
 	}
+	
 }

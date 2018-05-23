@@ -1,5 +1,5 @@
 /**
- * Created by Thomas Bruvold
+ * @author Thomas Bruvold
  * https://github.com/Artorp
  */
 

@@ -1,5 +1,5 @@
 /**
- * Created by Hans Bjerkevoll
+ * @author Hans Bjerkevoll
  * https://github.com/hansbjerkevoll
  */
 
@@ -82,4 +82,5 @@ public class AES {
 		cipher.init(Cipher.DECRYPT_MODE, secretKey);
 		return cipher.doFinal(ciphertext);
 	}
+	
 }
