@@ -8,13 +8,13 @@
 
 import Foundation
 
-public struct Default {
+fileprivate struct Default {
 	public static let Info		= "INFO:"
 	public static let Warning	= "WARNING:"
 	public static let Error 	= "ERROR:"
 }
 
-public struct Logger {
+struct Logger {
 	public static func info(_ object: Any, functionName: String = #function, fileName: String = #file, lineNumber: Int = #line) {
 		outputLog(object: object, logType: Default.Info, functionName: functionName, fileName: fileName, lineNumber: lineNumber)
 	}
